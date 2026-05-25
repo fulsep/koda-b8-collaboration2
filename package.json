@@ -1,0 +1,13 @@
+{
+  "name": "palindrome-checker",
+  "version": "1.0.0",
+  "description": "Palindrome checker with Node.js built-in tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "test:coverage": "node --test --experimental-test-coverage"
+  },
+  "keywords": ["palindrome", "testing", "node-test"],
+  "author": "",
+  "license": "MIT"
+}
