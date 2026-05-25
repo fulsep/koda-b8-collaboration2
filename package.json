@@ -5,9 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "node --test",
-    "test:coverage": "node --test --experimental-test-coverage"
+    "test:coverage": "node --test --experimental-test-coverage",
+    "lint": "npx eslint",
+    "lint:fix": "npx eslint --fix"
   },
-  "keywords": ["palindrome", "testing", "node-test"],
+  "keywords": [
+    "palindrome",
+    "testing",
+    "node-test"
+  ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.0",
+    "globals": "^17.6.0"
+  }
 }
